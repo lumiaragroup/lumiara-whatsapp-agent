@@ -1,0 +1,9 @@
+{
+  "name": "lumiara-whatsapp-agent-v5",
+  "version": "5.0.0-shadow",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "test": "node --test tests/*.test.js"
+  }
+}

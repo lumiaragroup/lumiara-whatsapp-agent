@@ -1,0 +1,15 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "lumiara-whatsapp-v5-shadow",
+  "main": "src/shadow-worker.js",
+  "compatibility_date": "2026-10-01",
+  "compatibility_flags": ["nodejs_compat"],
+  "observability": {
+    "enabled": true,
+    "head_sampling_rate": 1
+  },
+  "ai": { "binding": "AI" },
+  "kv_namespaces": [
+    { "binding": "V5_SHADOW", "id": "REPLACE_WITH_SEPARATE_SHADOW_KV_ID" }
+  ]
+}
